@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Doamin For Sale</title>
+    <link rel="icon" type="image/x-icon" href="https://img.icons8.com/emoji/512/heavy-dollar-sign-emoji.png">
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 50px;
+        background-color: black;
+      }
+      h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+        color: white;
+      }
+      table {
+        margin: 0 auto;
+        text-align: left;
+        color: white;
+      }
+      th, td {
+        padding: 10px;
+        color: white;
+      }
+      th {
+        background-color: gray;
+        color: white;
+      }
+      p{
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Unused Domain!</h1>
+    <p>Looking for a domain for your next project? Look no further!</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Domain Name</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td id="containthisurl"></td>
+          <td>$ TBD</td>
+        </tr>
+        <!-- Add more domains here -->
+      </tbody>
+    </table>
+    <p>If you're interested in purchasing any of these domains, please contact us at <a href="mailto:privatetechservices1@gmail.com">privatetechservices1@gmail.com</a>.</p>
+  </body>
+
+  <script>
+    document.getElementById("containthisurl").innerText = window.location.hostname;
+  </script>
+</html>
